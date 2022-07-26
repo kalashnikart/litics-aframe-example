@@ -1,0 +1,45 @@
+{
+  "author": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "./src/index.js",
+  "name": "logger-demo",
+  "scripts": {
+    "dev": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.dev.js",
+    "build-logger": "webpack --config webpack.prod.js"
+  },
+  "version": "1.1.0",
+  "dependencies": {
+    "aframe": "^1.3.0",
+    "aframe-orbit-controls": "^1.3.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "three": "^0.135.0"
+  },
+  "devDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "^*",
+    "@babel/preset-react": "*",
+    "@types/react": "^17.0.40",
+    "@types/react-dom": "^17.0.13",
+    "@types/three": "^0.135.0",
+    "@types/uuid": "^8.3.4",
+    "@yushijinhun/three-minifier-webpack": "^0.3.1",
+    "babel": "*",
+    "babel-core": "*",
+    "babel-loader": "*",
+    "css-loader": "*",
+    "html-loader": "*",
+    "html-webpack-hot-plugin": "*",
+    "html-webpack-plugin": "*",
+    "sass": "*",
+    "sass-loader": "^12.6.0",
+    "style-loader": "*",
+    "ts-loader": "^9.2.7",
+    "typescript": "^4.5.2",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "*"
+  }
+}
